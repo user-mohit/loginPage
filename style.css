@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(bg1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Heebo', sans-serif;
+
+}
+.container{
+    /* border: 3px solid red ; */
+    color: white;
+    position: absolute;
+    top :30%;
+    left: 50%;
+    width: 20%;
+    
+}
+
+.container h1{
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 12px;
+    padding: 13px 0px;
+}
+  .box {
+    width: 100%;
+    /* border: 2px solid purple; */
+    border-bottom: 2px solid purple;
+    margin: 22px 0px;
+  }
+  .box input{
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline :none;
+    color: white;
+    background: none;
+    
+
+  }
+  .box i {
+    width: 12px;
+    text-align: cneter;
+    /* padding: 0px 12px; */
+
+  }
+  .btn{
+    cursor: pointer;
+    outline: none;
+    /* width: 25%; */
+    margin: 12px 0px;
+    padding: 10px 21px;
+    border-radius: 10px;
+    border : 2px solid purple;
+    font-size: 18px;
+    background: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+
+
+  }
+  .btn:hover {
+    color: purple;
+    background: white;
+    font-family: 'Baloo Bhai 2', cursive;
+
+  }
